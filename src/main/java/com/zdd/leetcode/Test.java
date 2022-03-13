@@ -8,6 +8,9 @@ package com.zdd.leetcode;
 public class Test {
 
     public static void main(String[] args) {
+
+        String str = "11.11";
+        String[] split = str.split("\\.");
         int x = 10;
         System.out.println(x&3);
 
